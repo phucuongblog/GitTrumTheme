@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<style type="text/css">
+		body {
+			background: #f5f8fc;
+		}
+	</style>
+</head>
+<body>
+	<!-- .search-popup -->
+	<div class="search-popup d-block d-lg-none">
+		<form class="mobile-search">
+	  		<div class="input-group">
+			  	<input type="text" class="form-control" placeholder="Tìm kiếm..." aria-label="Tìm kiếm..." aria-describedby="button-addon2">
+			</div>
+	  	</form>
+	  	<span class="close-search"><img src="assets/images/main/close-button.png"></span>
+	</div>
+	<!-- /.search-popup -->
+
+	<!-- #header -->
+	<header id="header">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="index.html" title=""><img src="assets/images/main/code.png" alt=""></a>
+				<div class="search-box d-none d-lg-block">
+					<form>
+						<input type="text" name="s" class="form-control" placeholder="Searching....">
+					</form>
+				</div>
+			  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#primary-menu-wrap" aria-controls="primary-menu-wrap" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="line"></span>
+				    <span class="line"></span>
+				    <span class="line"></span>
+			 	 </button>
+			  	<div class="collapse navbar-collapse" id="primary-menu-wrap">
+			    	<ul id="primary-menu" class="navbar-nav">
+			    		<li class="nav-item">
+			        		<a class="nav-link" href="">HTML</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="">CSS</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="">Jquery</a>
+			      		</li>
+			      		<li class="nav-item dropdown">
+					        <a class="nav-link" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          	Frameworks
+					        </a>
+					        <ul class="dropdown-menu">
+					        	<li class="nav-item">
+					        		<a class="nav-link" href="">Bootstrap 4</a>
+					        	</li>
+					        	<li class="nav-item">
+					        		<a class="nav-link" href="">Uikit 3</a>
+					        	</li>
+					        </ul>
+					    </li>
+					    <li class="nav-item">
+			        		<a class="nav-link" href="">Thủ thuật</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="">Blog</a>
+			      		</li>
+					    <li class="nav-item">
+			        		<a class="nav-link" href="">Liên hệ</a>
+			      		</li>
+			    	</ul>
+			  	</div>
+			  	<div class="menu-action">
+			  		<div class="action-block">
+			  			<a href="javascript:void(0)" title="" class="action-btn"><span class="noti-number">3</span><img src="assets/images/main/alarm-bell.png" alt=""></a>
+			  			<ul class="popup-list">
+			  				<li>1. Thông báo 1</li>
+			  				<li>2. Thông báo 2</li>
+			  				<li>3. Thông báo 3</li>
+			  			</ul>
+			  		</div>
+			  		<div class="action-block">
+			  			<a href="javascript:void(0)" title="" class="action-btn avatar-btn"><img src="https://secure.gravatar.com/avatar/eace9980843994ee13897a2af902fa3b?s=96&d=wavatar&r=g" alt="" class="avatar"></a>
+			  			<ul class="popup-list style-2">
+			  				<li><a href="" title="">Facebook</a></li>
+			  				<li><a href="" title="">Twitter</a></li>
+			  				<li><a href="" title="">Instagram</a></li>
+			  				<li><a href="" title="">Youtube</a></li>
+			  				<li><a href="" title="">Codepen</a></li>
+			  				<li><a href="" title="">GitHub</a></li>
+			  				<li><a href="javascript:void(0)" title="" class="mobile-search-btn">Tìm kiếm</a></li>
+			  			</ul>
+			  		</div>
+			  	</div>
+			</nav>
+		</div>
+	</header>
+	<!-- /#header -->
+	
+	<!-- .single-wrapper -->
+	<div class="single-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 d-none d-lg-block fixed-height">
+					<div class="single-wrapper--sidebar">
+						<aside class="profile text-center">
+							<div class="profile-banner"></div>
+							<div class="profile-avatar">
+								<img src="https://secure.gravatar.com/avatar/eace9980843994ee13897a2af902fa3b?s=96&d=wavatar&r=g" alt="">
+							</div>
+							<h4 class="my-3">Phú Cường</h4>
+							<p class="profile-rule mb-3">Front End Developer</p>
+							<p class="profile-desc mb-3">Mình là 1 HUSTer, thích chụp ảnh, viết lách, sống cực kì hòa đồng và dễ bắt chuyện.</p>
+							<a href="" class="profile-group mb-3 d-inline-block" title="">Tham gia cộng đồng</a>
+						</aside>
+						<aside class="new-posts">
+							<h3 class="sidebar-title">Bài mới cập nhật</h3>
+							<ul>
+								<li><a href="" title="">Hiệu ứng chữ rơi lơ lửng cho website<p>4 bình luận</p></a></li>
+								<li><a href="" title="">Khung thông tin liên hệ hiệu ứng động<p>4 bình luận</p></a></li>
+								<li><a href="" title="">Tạo nút thả tim cho website<p>4 bình luận</p></a></li>
+								<li><a href="" title="">Hiệu ứng animation xoay vòng khi hover<p>4 bình luận</p></a></li>
+								<li><a href="" title="">Chuyển hiển thị bài viết từ dạng list sang grid (dạng lưới)<p>4 bình luận</p></a></li>
+							</ul>
+						</aside>
+						<aside class="friends">
+							<h3 class="sidebar-title">Bạn bè</h3>
+							<ul>
+								<li><a href="" title="">Siin Blog</a></li>
+								<li><a href="" title="">Dân 47</a></li>
+								<li><a href="" title="">Khanh Blogger</a></li>
+								<li><a href="" title="">Star Cường IT</a></li>
+								<li><a href="" title="">Nguyễn Anh Duy</a></li>
+								<li><a href="" title="">Niệm Style Blog</a></li>
+								<li><a href="" title="">Tôi Share Blog</a></li>
+								<li><a href="" title="">Star Sinh Blog</a></li>
+								<li><a href="" title="">Hưng Star - IT</a></li>
+								<li><a href="" title="">Duy Blogs</a></li>
+								<li><a href="" title="">Quốc Bảo Blog</a></li>
+								<li><a href="" title="">Đức Huy Blogger</a></li>
+							</ul>
+						</aside>
+					</div>
+				</div>
+				<div class="col-lg-9 fixed-height main-wrapper">
+					<div class="single-wrapper--main">
+						<div class="main-header">
+							<div class="header-meta">
+								<img src="https://secure.gravatar.com/avatar/eace9980843994ee13897a2af902fa3b?s=96&d=wavatar&r=g" alt="" class="float-left d-block mr-3">
+								<div class="meta-right">
+									<a href="" title="">Phú Cường</a>
+									<p>Founder</p>
+								</div>
+							</div>
+							<div class="bottom-meta">
+								<h1>Chuyển hiển thị bài viết từ dạng list sang grid (dạng lưới)</h1>
+								<div class="post-meta">
+									<div class="post-cats d-inline-block">
+										<a href="" title="">CSS</a>
+										<a href="" title="">Tutorials</a>
+									</div>
+									<div class="post-time d-inline-block">
+										<span>02/03/2019</span>
+									</div>
+									<div class="post-comment d-inline-block">
+										<span>5 bình luận</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-content">
+							<figure class="text-center">
+								<img src="https://pcdevshare.com/wp-content/uploads/2019/01/hovered-text-animation.png" alt="">
+								<figcaption>Hiệu ứng chữ rơi lơ lửng cho website</figcaption>
+							</figure>
+							<p>Tình hình là sắp Tết rồi nên việc cuối năm nó dồn cho sấp mặt thành ra không có thời gian viết bài cho mọi người. Cố làm cho xong dự án để xin nghỉ sớm và giờ đang ở quê lấy cái laptop ra gõ gõ bài mới đây. Cũng bật mí luôn cho các bạn là sắp tới mình sẽ thay đổi giao diện đơn giản hơn và không dùng Google Adsense cho website nó load nhanh xíu và đỡ tốn 3G/4G của các bạn.</p>
+							<p>Thôi dài dòng rồi. Nay mình sẽ chia sẻ cho các bạn tạo hiệu ứng chữ rơi lơ lửng cho website nhé. Chức năng thì làm gì ư? Để bạn trang trí cho chữ mình muốn có hiệu ứng khi rê chuột vào thôi. Điển hình là áp dụng cho logo bằng text ở website của bạn ấy là nhanh nhất.</p>
+							<h2>Hiệu ứng chữ rơi lơ lửng cho blog/website</h2>
+							<h3>HTML</h3>
+							<p>Trong hiệu ứng chuyển động này chỉ hoàn toàn dùng thuộc tính animation trong CSS3, các bạn chỉ cần lưu ý chức năng của từng thuộc tính của nó như:</p>
+							<ul>
+							    <li><strong>animation-name</strong>: tên của hiệu ứng</li>
+							    <li><strong>animation-duration</strong>: thời gian thực thi của hiệu ứng</li>
+							    <li><strong>animation-fill-mode</strong>: xác định trạng thái của hiệu ứng khi nó ngừng chạy và <span class="quote">forwards</span> ở đây sẽ làm nó giữ nguyên vị trí khi hết chuyển động mà không quay về chạy lại (phụ thuộc cả vào animation-iteration-count)</li>
+							    <li><strong>animation-iteration-count</strong>: số lần lặp lại của hiệu ứng</li>
+							    <li><strong>animation-timing-function</strong>: hiểu nôm na là tốc độ chuyển động của hiệu ứng và <span class="quote">ease-in-out</span> là sẽ chậm cả khi bắt đầu và cuối của chuyển động</li>
+							</ul>
+							<p>Ngoài ra, để tìm hiểu kĩ hơn về thuộc tính animation thì bạn có thể tham khảo chi tiết tại <a href="" title="">https://www.w3schools.com/css/css3_animations.asp</a></p>
+							<h2>Lời kết</h2>
+							<p>Trên đây, mình vừa chia sẻ cho các bạn cách để tạo ra <strong>hiệu ứng chữ rơi lơ lửng</strong> chỉ gồm HTML và CSS, không có chút JS nào nên tốc độ website không bị ảnh hưởng gì quá nhiều đâu. Việc áp dụng cũng vô cùng dễ dàng, bạn chỉ cần căn chỉnh phần HTML và CSS cho trùng Class, ID là được còn lại không cần đổi thông số gì mấy đâu. Chúc các bạn thành công!</p>
+							<h4>Created by: PCDevShare.Com</h4>
+						</div>
+						<div class="related-posts">
+							<h3 class="related-title">Bài cùng chuyên mục</h3>
+							<div class="post-items">
+								<div class="post-items--wrapper">
+									<div class="items-content">
+										<article class="items-block">
+											<span class="cat-link">CSS</span>
+											<h3><a href="" title="">Tạo nút thả tim cho website chỉ sử dụng CSS3</a></h3>
+											<p class="desc">Animation CSS3 đem lại khá nhiều điều thú vị. Vì thế, nay hãy cùng mình tìm hiểu</p>
+											<p class="comment-number">4</p>
+											<p class="post-date">02/03/2019</p>
+										</article>
+										<article class="items-block">
+											<span class="cat-link">CSS</span>
+											<h3><a href="" title="">Tạo nút thả tim cho website</a></h3>
+											<p class="desc">Animation CSS3 đem lại khá nhiều điều thú vị. Vì thế, nay hãy cùng mình tìm hiểu</p>
+											<p class="comment-number">4</p>
+											<p class="post-date">02/03/2019</p>
+										</article>
+										<article class="items-block">
+											<span class="cat-link">CSS</span>
+											<h3><a href="" title="">Tạo nút thả tim cho website</a></h3>
+											<p class="desc">Animation CSS3 đem lại khá nhiều điều thú vị. Vì thế, nay hãy cùng mình tìm hiểu</p>
+											<p class="comment-number">4</p>
+											<p class="post-date">02/03/2019</p>
+										</article>
+										<article class="items-block">
+											<span class="cat-link">CSS</span>
+											<h3><a href="" title="">Tạo nút thả tim cho website</a></h3>
+											<p class="desc">Animation CSS3 đem lại khá nhiều điều thú vị. Vì thế, nay hãy cùng mình tìm hiểu</p>
+											<p class="comment-number">4</p>
+											<p class="post-date">02/03/2019</p>
+										</article>
+										<article class="items-block">
+											<span class="cat-link">CSS</span>
+											<h3><a href="" title="">Tạo nút thả tim cho website</a></h3>
+											<p class="desc">Animation CSS3 đem lại khá nhiều điều thú vị. Vì thế, nay hãy cùng mình tìm hiểu</p>
+											<p class="comment-number">4</p>
+											<p class="post-date">02/03/2019</p>
+										</article>
+										<article class="items-block">
+											<span class="cat-link">CSS</span>
+											<h3><a href="" title="">Tạo nút thả tim cho website</a></h3>
+											<p class="desc">Animation CSS3 đem lại khá nhiều điều thú vị. Vì thế, nay hãy cùng mình tìm hiểu</p>
+											<p class="comment-number">4</p>
+											<p class="post-date">02/03/2019</p>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.single-wrapper -->
+
+	<!-- #footer -->
+	<footer id="footer" class="d-block d-lg-none">
+		<div class="container-fluid text-center">
+			<p>GitTrum Theme - Copyright & Created by <a href="" title="">Phú Cường</a></p>
+		</div>
+		<div class="backtop">
+		    <a href="javascript:void(0)"><i class="fa fa-angle-up"></i></a>
+		</div>
+	</footer>
+	<!-- /#footer -->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
