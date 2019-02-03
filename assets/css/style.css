@@ -224,6 +224,7 @@ button:focus {
 }
 #header .navbar .menu-action .action-block .popup-list li {
   padding: 5px 0;
+  line-height: 1.4;
 }
 #header .navbar .menu-action .action-block .popup-list.style-2 {
   padding: 0;
